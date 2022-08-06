@@ -1,0 +1,22 @@
+package TestPackage;
+
+public class SClassMethods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String s = "This is my first String program";
+		String s1 = "This is my first String program";
+       //charAt getting a characters from respective index
+		System.out.println(s.charAt(3));
+		//it compair to lexicographically 
+		System.out.println(s.compareTo(s1));
+		//it comapair to lexicographically 
+		System.out.println(s.compareToIgnoreCase(s1));
+		//it is used to concates two strings 
+		System.out.println(s.concat(" and this concate "));
+		//it is used to contain the string is exist in existing string 
+		System.out.println(s.contains("this is my"));
+	}
+
+}
